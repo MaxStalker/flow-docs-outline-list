@@ -18,7 +18,7 @@ function createList(linkBase) {
   const list = document.createElement("div");
 
   const sections = document.querySelectorAll(
-    "#content-container .magic-block-html section"
+    "#content-container .magic-block-html > section"
   );
 
   sections.forEach(section => {
