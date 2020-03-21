@@ -1,14 +1,42 @@
-.ext-reference-list{
-	display: block;
-	flex-direction: column;
-	padding: 10px;
-	width: 100%;
+.ext-reference-list-wrapper {
+  padding: 10px 0;
 }
 
-.ext-reference-list a{
-	display: block;
+.ext-reference-list-wrapper input{
+	width: 90%;
+	padding: 5px;
 }
 
-.ext-reference-list a.active{
-	font-weight: 700;
+.ext-reference-list {
+  display: block;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.ext-reference-list a {
+  display: block;
+}
+
+.ext-reference-list .ref-link {
+  display: block;
+}
+
+.ext-reference-list .ref-link.ref-link--hidden {
+  display: none;
+}
+
+.ext-reference-list .ref-link--sub-level {
+  padding-left: 10px;
+  font-size: 0.9em;
+}
+
+.ext-reference-list .ref-link--sub-level:last-of-type {
+  margin-bottom: 20px;
+}
+
+.ext-reference-list .ref-link.active {
+  font-weight: 700;
 }
