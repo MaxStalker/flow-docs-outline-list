@@ -1,0 +1,14 @@
+.ext-reference-list{
+	display: block;
+	flex-direction: column;
+	padding: 10px;
+	width: 100%;
+}
+
+.ext-reference-list a{
+	display: block;
+}
+
+.ext-reference-list a.active{
+	font-weight: 700;
+}
